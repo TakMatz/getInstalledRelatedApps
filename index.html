@@ -8,7 +8,7 @@
   <script>
     (async () => {
       const installedApps = await navigator.getInstalledRelatedApps();
-      console.log({installedApps});
+      alert(installedApps);
       
       installedApps
         .forEach((installedApp) => {
